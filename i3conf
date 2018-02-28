@@ -169,6 +169,7 @@ bindsym $mod+Shift+0 move container to workspace $wmusic
 # Open applications on specific workspaces
 assign [class="Xfce4-terminal"] $wshell
 assign [class="GitKraken"] $wshell
+assign [class="jetbrains-studio"] $wcode
 assign [class="TeXstudio"] $wcode
 assign [class="Atom"] $wcode
 assign [class="Chromium"] $wweb
