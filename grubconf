@@ -13,8 +13,8 @@ GRUB_SAVEDEFAULT=true
 GRUB_PRELOAD_MODULES="part_gpt part_msdos"
 
 # Uncomment to enable Hidden Menu, and optionally hide the timeout count
-GRUB_HIDDEN_TIMEOUT=5
-GRUB_HIDDEN_TIMEOUT_QUIET=true
+# GRUB_HIDDEN_TIMEOUT=5
+# GRUB_HIDDEN_TIMEOUT_QUIET=true
 
 # Uncomment to use basic console
 GRUB_TERMINAL_INPUT=console
@@ -51,3 +51,5 @@ GRUB_BACKGROUND="/usr/share/grub/background.png"
 
 # Hide menu
 GRUB_FORCE_HIDDEN_MENU="true"
+
+GRUB_DISABLE_OS_PROBER=true
