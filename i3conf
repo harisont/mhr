@@ -177,11 +177,12 @@ assign [class="Chromium"] $wweb
 assign [class="Slack"] $wchat
 assign [class="TelegramDesktop"] $wchat
 assign [class="Skype"] $wchat
-assign [class="FoxitReader"] $wread
+assign [class="Foxit Reader"] $wread
 assign [class="Audacious"] $wmusic
 assign [class="Spotify"] $wmusic # not working for unknown reasons
 for_window [class="Spotify"] move to workspace $wmusic
 for_window [class="TelegramDesktop"] resize shrink width 23 px or 23 ppt
+for_window [title="Google Keep"] resize shrink width 23 px or 23 ppt
 for_window [class="GitKraken"] move up
 
 # Open specific applications in floating mode
