@@ -136,6 +136,7 @@ set $wshell "1  1"
 set $wcode "2  2"
 set $wweb "3  3"
 set $wchat "4  4"
+set $wread "5  5"
 set $wmusic "10  10"
 
 # switch to workspace
@@ -143,7 +144,7 @@ bindsym $mod+1 workspace $wshell
 bindsym $mod+2 workspace $wcode
 bindsym $mod+3 workspace $wweb
 bindsym $mod+4 workspace $wchat
-bindsym $mod+5 workspace 5
+bindsym $mod+5 workspace $wread
 bindsym $mod+6 workspace 6
 bindsym $mod+7 workspace 7
 bindsym $mod+8 workspace 8
@@ -155,7 +156,7 @@ bindsym $mod+Shift+1 move container to workspace $wshell
 bindsym $mod+Shift+2 move container to workspace $wcode
 bindsym $mod+Shift+3 move container to workspace $wweb
 bindsym $mod+Shift+4 move container to workspace $wchat
-bindsym $mod+Shift+5 move container to workspace 5
+bindsym $mod+Shift+5 move container to workspace $wread
 bindsym $mod+Shift+6 move container to workspace 6
 bindsym $mod+Shift+7 move container to workspace 7
 bindsym $mod+Shift+8 move container to workspace 8
@@ -176,6 +177,7 @@ assign [class="Chromium"] $wweb
 assign [class="Slack"] $wchat
 assign [class="TelegramDesktop"] $wchat
 assign [class="Skype"] $wchat
+assign [class="FoxitReader"] $wread
 assign [class="Audacious"] $wmusic
 assign [class="Spotify"] $wmusic # not working for unknown reasons
 for_window [class="Spotify"] move to workspace $wmusic
