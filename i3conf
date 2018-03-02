@@ -270,6 +270,7 @@ exec_always --no-startup-id fix_xcursor
 exec redshift
 exec slack
 exec telegram-desktop
+exec systemctl start postgresql
 exec restart
 exec_always --no-startup-id nitrogen --restore
 
