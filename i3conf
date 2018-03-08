@@ -176,7 +176,7 @@ assign [class="GitKraken"] $wshell
 assign [class="jetbrains-studio"] $wcode
 assign [class="TeXstudio"] $wcode
 assign [class="Atom"] $wcode
-assign [class="Chromium"] $wweb
+assign [class="Google-chrome"] $wweb
 assign [class="Slack"] $wchat
 assign [class="TelegramDesktop"] $wchat
 assign [class="Skype"] $wchat
@@ -214,7 +214,7 @@ for_window [class="(?i)System-config-printer.py"] floating enable border normal
 for_window [class="Skype"] floating enable border normal
 for_window [class="Thus"] floating enable border normal
 for_window [class="Timeset-gui"] floating enable border normal
-for_window [class="(?i)virtualbox"] floating enable border normal
+# for_window [class="(?i)virtualbox"] floating enable border normal
 for_window [class="Xfburn"] floating enable
 
 # switch to workspace with urgent window automatically
