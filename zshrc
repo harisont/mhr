@@ -1,5 +1,6 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=$PATH":$HOME/bin"\n
 
 # Path to your oh-my-zsh installation.
   export ZSH=/home/harisont/.oh-my-zsh
@@ -95,5 +96,5 @@ source $ZSH/oh-my-zsh.sh
 
 eval $(thefuck --alias)
 
-export PATH=$PATH":$HOME/bin"
+# export PATH=$PATH":$HOME/bin"
 
