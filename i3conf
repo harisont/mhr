@@ -176,6 +176,7 @@ assign [class="GitKraken"] $wshell
 assign [class="jetbrains-studio"] $wcode
 assign [class="TeXstudio"] $wcode
 assign [class="Atom"] $wcode
+assign [class="Unity"] $wcode
 assign [class="Google-chrome"] $wweb
 assign [class="Slack"] $wchat
 assign [class="TelegramDesktop"] $wchat
