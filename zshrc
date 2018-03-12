@@ -96,5 +96,5 @@ source $ZSH/oh-my-zsh.sh
 
 eval $(thefuck --alias)
 
-# export PATH=$PATH":$HOME/bin"
+export PATH=$PATH":$HOME/bin"	# path to my own scripts' binaries
 
