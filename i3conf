@@ -219,6 +219,7 @@ for_window [class="Thus"] floating enable border normal
 for_window [class="Timeset-gui"] floating enable border normal
 # for_window [class="(?i)virtualbox"] floating enable border normal
 for_window [class="Xfburn"] floating enable
+for_window [title="Android Emulator - Nexus_5X_API_25:555"] floating enable
 
 # switch to workspace with urgent window automatically
 for_window [urgent=latest] focus
