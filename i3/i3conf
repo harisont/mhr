@@ -416,6 +416,6 @@ mode "$mode_gaps_outer" {
 }
 
 # Simple dual monitoring
-bindsym $mod+Shift+d xrandr --output HDMI2 --auto --left-of eDP1
+bindsym $mod+Shift+d exec --no-startup-id xrandr --output HDMI2 --auto --left-of eDP1
 bindsym $mod+Shift+h exec --no-startup-id i3-msg move workspace to output HDMI2
 bindsym $mod+Shift+l exec --no-startup-id i3-msg move workspace to output eDP1
