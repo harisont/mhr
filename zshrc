@@ -93,6 +93,8 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias anaconda_on="source /opt/anaconda/bin/activate root"
+alias anaconda_off="source /opt/anaconda/bin/deactivate root"
 
 eval $(thefuck --alias)
 
