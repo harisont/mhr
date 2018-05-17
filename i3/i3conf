@@ -187,6 +187,8 @@ assign [class="Skype"] $wchat
 assign [class="Foxit Reader"] $wread
 assign [class="Audacious"] $wmusic
 assign [title="Spotify"] $wmusic # not working for unknown reasons
+for_window [title=".*Posta.*"] move to workspace $wchat 
+for_window [title=".*YouTube"] move to workspace $wmusic 
 # for_window [class="Spotify"] move to workspace $wmusic
 for_window [class="Spotify"] move down
 for_window [class="Spotify"] resize shrink height 42 px or 42 ppt
@@ -416,6 +418,6 @@ mode "$mode_gaps_outer" {
 }
 
 # Simple dual monitoring
-bindsym $mod+Shift+f2 exec --no-startup-id xrandr --output HDMI2 --auto --left-of eDP1
+bindsym $mod+Shift+f2 exec xrandr --output HDMI2 --auto --left-of eDP1	# doesn't work for some unknown reason
 bindsym $mod+Shift+h exec --no-startup-id i3-msg move workspace to output HDMI2
 bindsym $mod+Shift+l exec --no-startup-id i3-msg move workspace to output eDP1
