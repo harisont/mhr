@@ -292,6 +292,7 @@ exec_always --no-startup-id fix_xcursor
 exec redshift
 exec slack
 exec telegram-desktop
+exec export NUMBA_ENABLE_CUDASIM=1	# mock nvidia CPU for thesis
 exec restart
 exec_always --no-startup-id nitrogen --restore
 
