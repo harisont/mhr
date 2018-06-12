@@ -290,7 +290,8 @@ exec --no-startup-id clipit
 exec --no-startup-id xautolock -time 10 -locker dm-tool
 exec_always --no-startup-id ff-theme-util
 exec_always --no-startup-id fix_xcursor
-exec redshift
+exec_always —no-startup-id redshift
+# exec redshift
 exec slack
 exec telegram-desktop
 exec export NUMBA_ENABLE_CUDASIM=1	# mock nvidia CPU for thesis
