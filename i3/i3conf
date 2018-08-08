@@ -181,6 +181,7 @@ assign [class="Google-chrome"] $wweb
 assign [class="Slack"] $wchat
 assign [class="TelegramDesktop"] $wchat
 assign [class="Skype"] $wchat
+assign [class="Geary"] $wchat
 assign [class="okular"] $wread
 assign [class="Gimp"] $wphoto
 assign [class="Rawtherapee"] $wphoto
@@ -218,7 +219,7 @@ for_window [class="Nitrogen"] floating enable sticky enable border normal
 for_window [class="Oblogout"] fullscreen enable
 for_window [class="octopi"] floating enable
 for_window [title="About Pale Moon"] floating enable
-for_window [class="Pamac-manager"] floating enable
+# for_window [class="Pamac-manager"] floating enable
 for_window [class="Pavucontrol"] floating enable
 for_window [class="qt5ct"] floating enable sticky enable border normal
 for_window [class="Qtconfig-qt4"] floating enable sticky enable border normal
@@ -286,12 +287,12 @@ exec --no-startup-id clipit
 exec --no-startup-id xautolock -time 10 -locker dm-tool
 exec_always --no-startup-id ff-theme-util
 exec_always --no-startup-id fix_xcursor
-exec_always --no-startup-id redshift-gtk
-exec slack
+exec --no-startup-id redshift-gtk
 exec telegram-desktop
 exec export NUMBA_ENABLE_CUDASIM=1	# mock nvidia CPU for thesis
 exec restart
 exec_always --no-startup-id nitrogen --restore
+exec geary
 
 # Color palette used for the terminal ( ~/.Xresources file )
 # Colors are gathered based on the documentation:
