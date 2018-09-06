@@ -181,7 +181,7 @@ assign [class="Google-chrome"] $wweb
 assign [class="Slack"] $wchat
 assign [class="TelegramDesktop"] $wchat
 assign [class="Skype"] $wchat
-assign [class="Geary"] $wchat
+assign [class="Mailspring"] $wchat
 assign [class="okular"] $wread
 assign [class="Gimp"] $wphoto
 assign [class="Rawtherapee"] $wphoto
@@ -292,7 +292,7 @@ exec telegram-desktop
 exec export NUMBA_ENABLE_CUDASIM=1	# mock nvidia CPU for thesis
 exec restart
 exec_always --no-startup-id nitrogen --restore
-exec geary
+exec mailspring
 
 # Color palette used for the terminal ( ~/.Xresources file )
 # Colors are gathered based on the documentation:
