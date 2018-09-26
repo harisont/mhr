@@ -13,7 +13,7 @@
 
 # Environment variables
 #EDITOR="$EDITOR"
-#TMPDIR="/home/harisont/builds" #uncomment to build on SSD - no build size limits
+TMPDIR="/home/harisont/builds" #uncomment to build on SSD - no build size limits
 #VISUAL="$VISUAL"
 
 # SUDO
