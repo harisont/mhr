@@ -175,7 +175,7 @@ bindsym $mod+Shift+0 move container to workspace $wmusic
 assign [class="GitKraken"] $wshell
 assign [class="jetbrains-studio"] $wcode
 assign [class="TeXstudio"] $wcode
-assign [class="Code - OSS"] $wcode
+assign [class="code"] $wcode
 assign [class="Unity"] $wcode
 assign [class="Google-chrome"] $wweb
 assign [class="Slack"] $wchat
