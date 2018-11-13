@@ -33,8 +33,11 @@ bindsym $mod+Return exec xfce4-terminal
 # start file manager
 bindsym $mod+Shift+Return exec pcmanfm
 
-#start VS code
+# start VS code
 bindsym $mod+Shift+v exec code-oss
+
+# start Google calendar
+bindsym $mod+Shift+p exec calendar
 
 # kill focused window
 bindsym $mod+q kill
