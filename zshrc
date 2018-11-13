@@ -96,7 +96,7 @@ source $ZSH/oh-my-zsh.sh
 # Custom aliases
 alias anaconda_on="source /opt/anaconda/bin/activate root"
 alias anaconda_off="source /opt/anaconda/bin/deactivate root"
-alias calendar="google-chrome-stable --app=https://calendar.google.com/calendar/r"
+alias calendar="google-chrome-stable --new-window --app=https://calendar.google.com/calendar/r"
 alias yogurt="yaourt"
 
 eval $(thefuck --alias)
