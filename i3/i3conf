@@ -37,7 +37,7 @@ bindsym $mod+Shift+Return exec pcmanfm
 bindsym $mod+Shift+v exec code-oss
 
 # start Google calendar
-bindsym $mod+Shift+p exec calendar
+bindsym $mod+Shift+p exec google-chrome-stable --new-window --app=https://calendar.google.com/calendar/r
 
 # kill focused window
 bindsym $mod+q kill
@@ -143,6 +143,7 @@ set $wweb "3  3"
 set $wchat "4  4"
 set $wread "5  5"
 set $wphoto "6  6"
+set $wdash "9  9"
 set $wmusic "10  10"
 
 # switch to workspace
@@ -154,7 +155,7 @@ bindsym $mod+5 workspace $wread
 bindsym $mod+6 workspace $wphoto
 bindsym $mod+7 workspace 7
 bindsym $mod+8 workspace 8
-bindsym $mod+9 workspace 9
+bindsym $mod+9 workspace $wdash
 bindsym $mod+0 workspace $wmusic
 
 # move focused container to workspace
@@ -166,7 +167,7 @@ bindsym $mod+Shift+5 move container to workspace $wread
 bindsym $mod+Shift+6 move container to workspace $wphoto
 bindsym $mod+Shift+7 move container to workspace 7
 bindsym $mod+Shift+8 move container to workspace 8
-bindsym $mod+Shift+9 move container to workspace 9
+bindsym $mod+Shift+9 move container to workspace $wdash
 bindsym $mod+Shift+0 move container to workspace $wmusic
 
 # Move to workspace with focused container
@@ -194,7 +195,7 @@ assign [class="Com.github.needle-and-thread.vocal"] $wmusic	# Vocal podcast
 assign [title="Spotify"] $wmusic # not working for unknown reasons
 # for_window [title=".*Posta.*"] move to workspace $wchat 
 # for_window [title=".*YouTube"] move to workspace $wmusic 
-# for_window [class="Spotify"] move to workspace $wmusic
+for_window [class="Spotify"] move to workspace $wmusic
 for_window [class="Spotify"] move down
 for_window [class="Spotify"] resize shrink height 42 px or 42 ppt
 for_window [class="Lollypop"] move down
@@ -203,7 +204,9 @@ for_window [class="Com.github.needle-and-thread.vocal"] move down	# Vocal podcas
 for_window [class="Com.github.needle-and-thread.vocal"] resize shrink height 42 px or 42 ppt	# Vocal podcast
 for_window [class="TelegramDesktop"] resize shrink width 23 px or 23 ppt
 for_window [title="Google Keep"] resize shrink width 23 px or 23 ppt
+for_window [title="Google Calendar.*"] move to workspace $wdash 
 for_window [class="GitKraken"] move up
+for_window [title=".*YouTube"] move to workspace $wmusic 
 
 # Open specific applications in floating mode
 for_window [title="alsamixer"] floating enable border pixel 1
