@@ -186,6 +186,7 @@ assign [class="Slack"] $wchat
 assign [class="TelegramDesktop"] $wchat
 assign [class="Skype"] $wchat
 assign [class="Mailspring"] $wchat
+assign [class= "Franz"] $wchat
 assign [class="okular"] $wread
 assign [class="Gimp"] $wphoto
 assign [class="Rawtherapee"] $wphoto
