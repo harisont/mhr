@@ -184,6 +184,7 @@ assign [class="Unity"] $wcode
 assign [class="Google-chrome"] $wweb
 assign [class="Slack"] $wchat
 assign [class="TelegramDesktop"] $wchat
+assign [class="Gnome-pomodoro"] $wdash
 assign [class="Skype"] $wchat
 assign [class="Mailspring"] $wchat
 assign [class= "Franz"] $wchat
@@ -204,10 +205,12 @@ for_window [class="Lollypop"] resize shrink height 45 px or 45 ppt
 for_window [class="Com.github.needle-and-thread.vocal"] move down	# Vocal podcast
 for_window [class="Com.github.needle-and-thread.vocal"] resize shrink height 42 px or 42 ppt	# Vocal podcast
 for_window [class="TelegramDesktop"] resize shrink width 23 px or 23 ppt
+for_window [class="Gnome-pomodoro"] resize shrink width 23 px or 23 ppt
 for_window [title="Google Keep"] resize shrink width 23 px or 23 ppt
 for_window [title="Google Calendar.*"] move to workspace $wdash 
 for_window [class="GitKraken"] move up
-for_window [title=".*YouTube"] move to workspace $wmusic 
+#for_window [title=".*YouTube"] move to workspace $wmusic 
+
 
 # Open specific applications in floating mode
 for_window [title="alsamixer"] floating enable border pixel 1
