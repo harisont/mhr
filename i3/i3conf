@@ -207,6 +207,7 @@ for_window [class="Com.github.needle-and-thread.vocal"] resize shrink height 42 
 for_window [class="TelegramDesktop"] resize shrink width 23 px or 23 ppt
 for_window [class="Gnome-pomodoro"] resize shrink width 23 px or 23 ppt
 for_window [title="Google Keep"] resize shrink width 23 px or 23 ppt
+for_window [title="Google Keep.*"] move to workspace $wdash 
 for_window [title="Google Calendar.*"] move to workspace $wdash 
 for_window [class="GitKraken"] move up
 #for_window [title=".*YouTube"] move to workspace $wmusic 
