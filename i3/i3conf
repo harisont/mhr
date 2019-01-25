@@ -193,6 +193,7 @@ assign [class="Gimp"] $wphoto
 assign [class="Rawtherapee"] $wphoto
 assign [class="Shotwell"] $wphoto
 assign [class="Lollypop"] $wmusic
+assign [class="Gpodder"] $wmusic
 assign [class="Com.github.needle-and-thread.vocal"] $wmusic	# Vocal podcast
 assign [title="Spotify"] $wmusic # not working for unknown reasons
 # for_window [title=".*Posta.*"] move to workspace $wchat 
