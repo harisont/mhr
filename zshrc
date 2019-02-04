@@ -98,6 +98,8 @@ alias anaconda_on="source /opt/anaconda/bin/activate root"
 alias anaconda_off="source /opt/anaconda/bin/deactivate root"
 alias calendar="google-chrome-stable --new-window --app=https://calendar.google.com/calendar/r"
 alias yogurt="yaourt"
+alias largebuild="mount -o remount,size=6G,noatime /tmp"
+
 
 eval $(thefuck --alias)
 
