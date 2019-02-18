@@ -99,6 +99,7 @@ alias anaconda_off="source /opt/anaconda/bin/deactivate root"
 alias calendar="google-chrome-stable --new-window --app=https://calendar.google.com/calendar/r"
 alias yogurt="yaourt"
 alias largebuild="mount -o remount,size=6G,noatime /tmp"
+alias orca="cd Documents/Repos/Orca-c/build/release && ./orca"
 
 
 eval $(thefuck --alias)
