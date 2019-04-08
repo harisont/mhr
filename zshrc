@@ -100,6 +100,7 @@ alias calendar="google-chrome-stable --new-window --app=https://calendar.google.
 alias yogurt="yaourt"
 alias largebuild="mount -o remount,size=6G,noatime /tmp"
 alias orca="cd Documents/Repos/Orca-c/build/release && ./orca"
+alias hist="history"
 
 
 eval $(thefuck --alias)
