@@ -193,7 +193,7 @@ assign [class="Gimp"] $wphoto
 assign [class="Rawtherapee"] $wphoto
 assign [class="Shotwell"] $wphoto
 assign [class="Lollypop"] $wmusic
-assign [class="Gpodder"] $wmusic
+assign [class="gnome-podcasts"] $wmusic
 assign [class="Com.github.needle-and-thread.vocal"] $wmusic	# Vocal podcast
 assign [title="Spotify"] $wmusic # not working for unknown reasons
 # for_window [title=".*Posta.*"] move to workspace $wchat 
@@ -305,7 +305,7 @@ exec telegram-desktop
 exec export NUMBA_ENABLE_CUDASIM=1	# mock nvidia CPU for thesis
 exec restart
 exec_always --no-startup-id nitrogen --restore
-exec mailspring
+exec sleep 5 && mailspring # waits until a connection to the network is likely to be established
 
 # Color palette used for the terminal ( ~/.Xresources file )
 # Colors are gathered based on the documentation:
