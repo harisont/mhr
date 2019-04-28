@@ -81,6 +81,9 @@ mode "$mode_system" {
     bindsym Escape mode "default"
 }
 
+# hide/unhide i3status bar
+bindsym $mod+Shift+s bar mode toggle
+
 
 # I3 SHORTCUTS
 
