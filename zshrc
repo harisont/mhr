@@ -101,7 +101,7 @@ alias yogurt="yaourt"
 alias largebuild="mount -o remount,size=6G,noatime /tmp"
 alias orca="cd Documents/Repos/Orca-c/build/release && ./orca"
 alias hist="history"
-
+alias grab="history | grep"
 
 eval $(thefuck --alias)
 
