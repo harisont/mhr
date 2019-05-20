@@ -60,7 +60,7 @@ bindsym $mod+space exec --no-startup-id j4-dmenu-desktop
 # use Mouse+$mod to drag floating windows
 floating_modifier $mod
 
-# take screeshot
+# take screenshot
 bindsym $mod+Print exec --no-startup-id i3-scrot
 bindsym $mod+Shift+Print --release exec --no-startup-id i3-scrot -s
 
