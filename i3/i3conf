@@ -371,4 +371,4 @@ bindsym $mod+Shift+h exec --no-startup-id i3-msg move workspace to output HDMI2
 bindsym $mod+Shift+l exec --no-startup-id i3-msg move workspace to output eDP1
 
 # KEYBOARD LAYOUTS
-exec --no-startup-id "setxkbmap -model pc104 -layout se,it -option grp:alt_shift_toggle"
+# exec --no-startup-id "setxkbmap -model pc104 -layout se,it -option grp:alt_shift_toggle"
