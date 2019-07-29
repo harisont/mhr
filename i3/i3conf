@@ -289,7 +289,7 @@ assign [class="Gnome-builder"] $wcode
 assign [class="code"] $wcode
 assign [class="Unity"] $wcode
 assign [class="Google-chrome"] $wweb
-assign [class="Firefox"] $wweb
+assign [class="firefox"] $wweb
 assign [class="Slack"] $wchat
 assign [class="TelegramDesktop"] $wchat
 assign [class="Gnome-pomodoro"] $wdash
@@ -333,7 +333,7 @@ for_window [class="Timeset-gui"] floating enable border normal
 for_window [class="Xfburn"] floating enable
 for_window [title="Android Emulator - Nexus_5X_API_25:555"] floating enable
 for_window [class="Matplotlib"] floating enable
-for_window [class="Firefox"] floating disable border none
+for_window [class="firefox"] floating disable border none
 for_window [class="balena-etcher-electron"] floating disable border none
 
 # details (moving and resizing)
