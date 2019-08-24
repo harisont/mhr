@@ -102,6 +102,7 @@ alias largebuild="mount -o remount,size=6G,noatime /tmp"
 alias orca="cd Documents/Repos/Orca-c/build/release && ./orca"
 alias hist="history"
 alias grab="history | grep"
+alias hotspot="create_ap wlp59s0 enp58s0f1 wifi-154 wawatech"
 
 eval $(thefuck --alias)
 
