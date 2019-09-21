@@ -292,6 +292,7 @@ assign [class="Google-chrome"] $wweb
 assign [class="Firefox"] $wweb
 assign [class="Slack"] $wchat
 assign [class="TelegramDesktop"] $wchat
+assign [class="discord"] $wchat
 assign [class="Gnome-pomodoro"] $wdash
 assign [class="Skype"] $wchat
 assign [class="Mailspring"] $wchat
