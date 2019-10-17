@@ -1,0 +1,1 @@
+User-specific desktop files (chrome apps and so on) - path: /home/harisont/.local/share/applications.
