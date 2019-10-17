@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=HackMD
+Exec=/opt/HackMD/hackmd-desktop %U
+Terminal=false
+Type=Application
+Icon=hackmd-desktop
+StartupWMClass=HackMD
+Comment=HackMD desktop client
+Categories=Utility;

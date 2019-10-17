@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Spotify
+Icon=spotify-client
+TryExec=spotify
+Exec=spotify %U
+Terminal=false
+MimeType=x-scheme-handler/spotify;
+Categories=Audio;Music;Player;AudioVideo;
+StartupWMClass=spotify

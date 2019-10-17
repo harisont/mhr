@@ -1,0 +1,17 @@
+[Desktop Entry]
+Name=Mount/Unmount image
+Name[en_CA]=Mount/Unmount image
+Name[en_GB]=Mount/Unmount image
+Name[ro]=Montează/Demontează imagine
+Comment=(Requires target) Mount/Unmount a disk image
+Comment[en_CA]=(Requires target) Mount/Unmount a disk image
+Comment[en_GB]=(Requires target) Mount/Unmount a disk image
+Comment[ro]=(Necesită țintă) Montează/Demontează o imagine de disc
+Keywords=iso;img;nrg;mdf;bin;
+Exec=open-fuse-iso %f
+Terminal=false
+NoDisplay=true
+Type=Application
+Icon=application-x-cd-image
+Categories=Utility;
+MimeType=application/x-cd-image;application/x-raw-disk-image;application/octet-stream;

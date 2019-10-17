@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Zettlr
+Exec=/opt/Zettlr/zettlr %U
+Terminal=false
+Type=Application
+Icon=zettlr
+StartupWMClass=zettlr
+Comment=A powerful Markdown Editor with integrated tree view
+MimeType=text/markdown;
+Categories=Office;
