@@ -52,10 +52,10 @@ bindsym $mod+Shift+f floating toggle
 bindsym $mod+Tab workspace next
 
 # execute command
-bindsym $mod+Shift+space exec --no-startup-id dmenu_recency
+bindsym $mod+Shift+space exec --no-startup-id dmenu_recency 
 
 # start program launcher
-bindsym $mod+space exec --no-startup-id j4-dmenu-desktop
+bindsym $mod+space exec --no-startup-id j4-dmenu-desktop --dmenu "dmenu -i -sb '#00997a'"
 
 # use Mouse+$mod to drag floating windows
 floating_modifier $mod
