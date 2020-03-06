@@ -1,1 +1,0 @@
-System-wide desktop files - path: /usr/share/applications.
