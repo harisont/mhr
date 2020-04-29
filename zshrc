@@ -110,3 +110,9 @@ eval $(thefuck --alias)
 
 export PATH=$PATH":$HOME/bin"	# path to my own scripts' binaries
 
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/home/harisont/Documents/Repos/dialog-systems-lab/tts_lab/google-cloud-sdk/path.zsh.inc' ]; then . '/home/harisont/Documents/Repos/dialog-systems-lab/tts_lab/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/home/harisont/Documents/Repos/dialog-systems-lab/tts_lab/google-cloud-sdk/completion.zsh.inc' ]; then . '/home/harisont/Documents/Repos/dialog-systems-lab/tts_lab/google-cloud-sdk/completion.zsh.inc'; fi
