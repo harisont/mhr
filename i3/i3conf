@@ -341,6 +341,7 @@ for_window [title="Android Emulator - Nexus_5X_API_25:555"] floating enable
 for_window [class="Matplotlib"] floating enable
 for_window [class="firefox"] floating disable border none
 for_window [class="balena-etcher-electron"] floating disable border none
+for_window [class="zoom"] floating disable
 
 # details (moving and resizing)
 for_window [class="Spotify"] move to workspace $wmusic
