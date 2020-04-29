@@ -103,6 +103,8 @@ alias orca="cd Documents/Repos/Orca-c/build/release && ./orca"
 alias hist="history"
 alias grab="history | grep"
 alias hotspot="create_ap wlp59s0 enp58s0f1 wifi-154 wawatech"
+alias gf="/home/harisont/.local/bin/gf"
+alias open="xdg-open"
 
 eval $(thefuck --alias)
 
