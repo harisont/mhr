@@ -284,7 +284,6 @@ bindsym $mod+Shift+0 move container to workspace $wmusic
 bindsym $mod+Return exec xfce4-terminal
 bindsym $mod+Shift+Return exec pcmanfm
 bindsym $mod+Shift+v exec code-oss
-bindsym $mod+Shift+p exec google-chrome-stable --new-window --app=https://calendar.google.com/calendar/r; gnome-pomodoro
 
 # assign applications to workspaces
 assign [class="GitKraken"] $wshell
