@@ -305,9 +305,12 @@ assign [class="Feedreader"] $wread
 assign [class="Gimp"] $wphoto
 assign [class="Rawtherapee"] $wphoto
 assign [class="Shotwell"] $wphoto
+assign [class="Shotcut"] $wphoto
 assign [class="Lollypop"] $wmusic
 assign [title="Podcasts"] $wmusic
 assign [title="Spotify"] $wmusic # not working for unknown reasons
+assign [class="vlc"] $wmusic
+assign [class="mpv"] $wmusic
 
 # app-specific floating settings
 for_window [class="Conky"] floating enable border pixel 1
