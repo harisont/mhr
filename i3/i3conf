@@ -60,9 +60,13 @@ bindsym $mod+space exec --no-startup-id j4-dmenu-desktop --dmenu "dmenu -i -sb '
 # use Mouse+$mod to drag floating windows
 floating_modifier $mod
 
-# take screenshot
+# take screenshot 
+# (two version for each mode cause I have two keyboards)
+# (S stands for "screenshot", "stampa" or "skriv ut ;)
 bindsym $mod+Print exec --no-startup-id i3-scrot
+bindsym $mod+S exec --no-startup-id i3-scrot
 bindsym $mod+Shift+Print --release exec --no-startup-id i3-scrot -s
+bindsym $mod+Shift+S --release exec --no-startup-id i3-scrot -s
 
 # set shut down, restart and locking features
 bindsym $mod+Shift+q mode "$mode_system"
