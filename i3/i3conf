@@ -378,6 +378,9 @@ exec restart
 exec_always --no-startup-id nitrogen --restore
 exec sleep 5 && mailspring # waits until a connection to the network is likely to be established
 
+# MONITOR ROTATION
+bindsym $mod+Down+Right exec xrandr -o left
+bindsym $mod+Up+Left exec xrandr -o normal
 
 # DUAL MONITORING (experimental)
 bindsym $mod+Shift+f2 exec xrandr --output HDMI2 --auto --left-of eDP1	# doesn't work for some unknown reason
