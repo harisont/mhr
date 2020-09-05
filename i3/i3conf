@@ -290,6 +290,7 @@ assign [class="GitKraken"] $wshell
 assign [class="jetbrains-studio"] $wcode
 assign [class="Gnome-builder"] $wcode
 assign [class="code"] $wcode
+assign [class="Code"] $wcode
 assign [class="Unity"] $wcode
 assign [class="Atom"] $wcode
 assign [class="jetbrains-idea-ce"] $wcode
