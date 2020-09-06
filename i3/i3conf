@@ -301,6 +301,7 @@ assign [class="discord"] $wchat
 assign [class="Hexchat"] $wchat
 assign [class="TeamViewer"] $wchat
 assign [class="Gnome-pomodoro"] $wdash
+assign [class="google-calendar-dark-nativefier-e22938"] $wdash
 assign [class="Skype"] $wchat
 assign [class="Mailspring"] $wchat
 assign [class="Franz"] $wchat
@@ -360,7 +361,6 @@ for_window [class="TelegramDesktop"] resize shrink width 23 px or 23 ppt
 for_window [class="Gnome-pomodoro"] resize shrink width 23 px or 23 ppt
 for_window [title="Google Keep"] resize shrink width 23 px or 23 ppt
 for_window [title="Google Keep.*"] move to workspace $wdash 
-for_window [title="Google Calendar.*"] move to workspace $wdash 
 for_window [class="GitKraken"] move up
 
 # autostart
