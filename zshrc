@@ -106,8 +106,8 @@ alias tlmgr='TEXMFDIST/scripts/texlive/tlmgr.pl --usermode'
 
 eval $(thefuck --alias)
 
-export PATH=$PATH":$HOME/bin"	# path to my own scripts' binaries
-
+export PATH=$PATH":$HOME/bin"	# path to my own scripts' binaries and self-compiled stuff
+export GF_LIB_PATH=$GF_LIB_PATH":$HOME/bin/gf:$HOME/Repos/gf-rgl/src/morphodict"
 
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f '/home/harisont/Documents/Repos/dialog-systems-lab/tts_lab/google-cloud-sdk/path.zsh.inc' ]; then . '/home/harisont/Documents/Repos/dialog-systems-lab/tts_lab/google-cloud-sdk/path.zsh.inc'; fi
