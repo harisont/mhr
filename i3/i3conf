@@ -1,7 +1,7 @@
 # i3 HOLY CONFIG FILE (path: /home/harisont/.i3/config)
 
 # set mod key (Mod1=<Alt>, Mod4=<Super>)
-set $mod Mod4
+set $mod Mod1 
 
 # workspace back and forth (with/without active container)
 workspace_auto_back_and_forth yes
@@ -305,6 +305,7 @@ assign [class="google-calendar-dark-nativefier-e22938"] $wdash
 assign [class="Skype"] $wchat
 assign [class="Mailspring"] $wchat
 assign [class="Franz"] $wchat
+assign [class="Microsoft Teams - Preview"] $wchat
 assign [class="okular"] $wread
 assign [class="Feedreader"] $wread
 assign [class="Gimp"] $wphoto
@@ -377,6 +378,8 @@ exec telegram-desktop
 exec restart
 exec_always --no-startup-id nitrogen --restore
 exec sleep 5 && mailspring # waits until a connection to the network is likely to be established
+exec systemctl --user enable timidity.service
+exec systemctl --user start timidity.service
 
 # MONITOR ROTATION
 bindsym $mod+l exec xrandr -o left
