@@ -94,10 +94,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 # Custom aliases
-alias anaconda_on="source /opt/anaconda/bin/activate root"
-alias anaconda_off="source /opt/anaconda/bin/deactivate root"
-alias calendar="google-chrome-stable --new-window --app=https://calendar.google.com/calendar/r"
-alias yogurt="yaourt"
+alias yogurt="yay"
 alias largebuild="mount -o remount,size=6G,noatime /tmp"
 alias hist="history"
 alias grab="history | grep"
@@ -105,6 +102,7 @@ alias hotspot="create_ap wlp59s0 enp58s0f1 wifi-154 wawatech"
 alias orca="xxiivv-orca"
 alias gf="/home/harisont/.local/bin/gf"
 alias open="xdg-open"
+alias tlmgr='TEXMFDIST/scripts/texlive/tlmgr.pl --usermode'
 
 eval $(thefuck --alias)
 
