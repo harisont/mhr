@@ -21,3 +21,7 @@ You might find this useful if one or more of the following conditions apply:
   laptop keyboard)
 - [ ] store all useful layouts created by ARandR and create shortcuts or menu entries for them
 - [ ] make it so that all these configs go to the right folder all at once as soon as I reinstall the OS
+- [ ] fix the damn "could not start light display manager" issue!
+- [ ] update screen layouts
+- [ ] fix goeclue, or just don't use it at all and setup shortcuts for redshift
+- [ ] fix shortcut for "move workspace to small screen"
