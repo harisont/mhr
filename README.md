@@ -25,3 +25,4 @@ You might find this useful if one or more of the following conditions apply:
 - [ ] update screen layouts
 - [ ] fix goeclue, or just don't use it at all and setup shortcuts for redshift
 - [ ] fix shortcut for "move workspace to small screen"
+- [ ] fix Firefox jumping around
