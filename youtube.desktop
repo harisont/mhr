@@ -1,5 +1,0 @@
-[Desktop Entry]
-Name=YouTube
-Comment=YouTube web app.
-Exec=google-chrome-stable --new-window --app=https://youtube.com
-StartupWMClass=Calendar

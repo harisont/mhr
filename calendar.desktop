@@ -1,5 +1,0 @@
-[Desktop Entry]
-Name=Calendar
-Comment=Google Calendar web app.
-Exec=google-chrome-stable --new-window --app=https://calendar.google.com/calendar/r
-StartupWMClass=Calendar

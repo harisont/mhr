@@ -230,16 +230,6 @@ mode "$mode_gaps_outer" {
 
 exec --no-startup-id volumeicon
 bindsym $mod+Ctrl+m exec terminal -e 'alsamixer'
-#exec --no-startup-id pulseaudio
-#exec --no-startup-id pa-applet
-#bindsym $mod+Ctrl+m exec pavucontrol
-
-
-# BRIGHTNESS
-
-# bindsym XF86MonBrightnessUp exec "xbacklight -inc 5; notify-send 'brightness up'"
-# bindsym XF86MonBrightnessDown exec "xbacklight -dec 5; notify-send 'brightness down'"
-
 
 # BASIC WORKSPACE SETTINGS
 
@@ -283,44 +273,30 @@ bindsym $mod+Shift+0 move container to workspace $wmusic
 # shorcuts to open (groups of) applications
 bindsym $mod+Return exec xfce4-terminal
 bindsym $mod+Shift+Return exec pcmanfm
-bindsym $mod+Shift+v exec code-oss
 
 # assign applications to workspaces
-assign [class="GitKraken"] $wshell
-assign [class="jetbrains-studio"] $wcode
-assign [class="Gnome-builder"] $wcode
 assign [class="code"] $wcode
 assign [class="Code"] $wcode
-assign [class="Unity"] $wcode
 assign [class="Atom"] $wcode
-assign [class="jetbrains-idea-ce"] $wcode
 assign [class="firefox"] $wweb
 assign [class="Slack"] $wchat
 assign [class="TelegramDesktop"] $wchat
 assign [class="discord"] $wchat
-assign [class="Hexchat"] $wchat
-assign [class="TeamViewer"] $wchat
 assign [class="Gnome-pomodoro"] $wdash
-assign [class="google-calendar-dark-nativefier-e22938"] $wdash
 assign [class="Skype"] $wchat
 assign [class="Mailspring"] $wchat
-assign [class="Franz"] $wchat
 assign [class="Microsoft Teams - Preview"] $wchat
 assign [class="okular"] $wread
-assign [class="Feedreader"] $wread
 assign [class="Gimp"] $wphoto
 assign [class="Rawtherapee"] $wphoto
 assign [class="Shotwell"] $wphoto
 assign [class="Shotcut"] $wphoto
-assign [class="Lollypop"] $wmusic
 assign [title="Podcasts"] $wmusic
 assign [title="Spotify"] $wmusic # not working for unknown reasons
 assign [class="vlc"] $wmusic
 assign [class="mpv"] $wmusic
 
 # app-specific floating settings
-for_window [class="Conky"] floating enable border pixel 1
-for_window [title="Turtle!"] floating enable border pixel 1
 for_window [title="alsamixer"] floating enable border pixel 1
 for_window [class="Calamares"] floating enable border normal
 for_window [class="Clipgrab"] floating enable
@@ -345,8 +321,6 @@ for_window [class="(?i)System-config-printer.py"] floating enable border normal
 for_window [class="Skype"] floating disable border none
 for_window [class="Thus"] floating enable border normal
 for_window [class="Timeset-gui"] floating enable border normal
-for_window [class="Xfburn"] floating enable
-for_window [title="Android Emulator - Nexus_5X_API_25:555"] floating enable
 for_window [class="Matplotlib"] floating enable
 for_window [class="firefox"] floating disable border none
 for_window [class="balena-etcher-electron"] floating disable border none
@@ -354,15 +328,8 @@ for_window [class="zoom"] floating disable
 
 # details (moving and resizing)
 for_window [class="Spotify"] move to workspace $wmusic
-for_window [class="Spotify"] move down
-for_window [class="Spotify"] resize shrink height 42 px or 42 ppt
-for_window [class="Lollypop"] move down
-for_window [class="Lollypop"] resize shrink height 45 px or 45 ppt
 for_window [class="TelegramDesktop"] resize shrink width 23 px or 23 ppt
 for_window [class="Gnome-pomodoro"] resize shrink width 23 px or 23 ppt
-for_window [title="Google Keep"] resize shrink width 23 px or 23 ppt
-for_window [title="Google Keep.*"] move to workspace $wdash 
-for_window [class="GitKraken"] move up
 
 # autostart
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
