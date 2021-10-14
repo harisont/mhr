@@ -62,7 +62,7 @@ floating_modifier $mod
 
 # take screenshot 
 # (two version for each mode cause I have two keyboards)
-# (S stands for "screenshot", "stampa" or "skriv ut ;)
+# (S stands for "screenshot", "stampa" or "skriv ut" ;)
 bindsym $mod+Print exec --no-startup-id i3-scrot
 bindsym $mod+S exec --no-startup-id i3-scrot
 bindsym $mod+Shift+Print --release exec --no-startup-id i3-scrot -s
@@ -377,7 +377,7 @@ exec --no-startup-id redshift-gtk
 exec telegram-desktop
 exec restart
 exec_always --no-startup-id nitrogen --restore
-exec sleep 5 && mailspring # waits until a connection to the network is likely to be established
+exec mailspring
 exec systemctl --user enable timidity.service
 exec systemctl --user start timidity.service
 
