@@ -1,7 +1,7 @@
 # i3 HOLY CONFIG FILE (path: /home/harisont/.i3/config)
 
 # set mod key (Mod1=<Alt>, Mod4=<Super>)
-set $mod Mod1 
+set $mod Mod4 
 
 # workspace back and forth (with/without active container)
 workspace_auto_back_and_forth yes
