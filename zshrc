@@ -95,11 +95,9 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 # Custom aliases
 alias yogurt="yay"
-alias largebuild="mount -o remount,size=6G,noatime /tmp"
 alias hist="history"
 alias grab="history | grep"
 alias hotspot="create_ap wlp59s0 enp58s0f1 wifi-154 wawatech"
-alias orca="xxiivv-orca"
 alias gf="/home/harisont/.local/bin/gf"
 alias open="xdg-open"
 alias tlmgr='TEXMFDIST/scripts/texlive/tlmgr.pl --usermode'
