@@ -347,6 +347,7 @@ exec_always --no-startup-id nitrogen --restore
 exec mailspring
 exec systemctl --user enable timidity.service
 exec systemctl --user start timidity.service
+exec --no-startup-id redshift -l manual -l 57.74:12.02
 
 # MONITOR ROTATION
 bindsym $mod+l exec xrandr -o left
