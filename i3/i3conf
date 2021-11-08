@@ -146,7 +146,7 @@ set_from_resource $term_color15    color15
 
 # bar
 bar {
-	i3bar_command i3bar -t
+	i3bar_command i3bar
 	status_command i3status
 	position bottom
 
