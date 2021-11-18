@@ -333,6 +333,7 @@ for_window [class="TelegramDesktop"] resize shrink width 23 px or 23 ppt
 for_window [class="Gnome-pomodoro"] resize shrink width 23 px or 23 ppt
 
 # autostart
+exec --no-startup-id setxkbmap -layout gb
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 exec --no-startup-id nm-applet
 exec --no-startup-id xfce4-power-manager
