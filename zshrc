@@ -112,3 +112,5 @@ if [ -f '/home/harisont/Documents/Repos/dialog-systems-lab/tts_lab/google-cloud-
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/home/harisont/Documents/Repos/dialog-systems-lab/tts_lab/google-cloud-sdk/completion.zsh.inc' ]; then . '/home/harisont/Documents/Repos/dialog-systems-lab/tts_lab/google-cloud-sdk/completion.zsh.inc'; fi
+
+eval "$(_BIBO_COMPLETE=zsh_source bibo)"
