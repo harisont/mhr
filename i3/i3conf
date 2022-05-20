@@ -296,6 +296,7 @@ assign [title="Podcasts"] $wmusic
 assign [title="Spotify"] $wmusic # not working for unknown reasons
 assign [class="vlc"] $wmusic
 assign [class="mpv"] $wmusic
+assign [class="fluent-reader"] $wread
 
 # app-specific floating settings
 for_window [title="alsamixer"] floating enable border pixel 1
@@ -326,6 +327,7 @@ for_window [class="Matplotlib"] floating enable
 for_window [class="firefox"] floating disable border none
 for_window [class="balena-etcher-electron"] floating disable border none
 for_window [class="zoom"] floating disable
+for_window [instance="origin.exe"] floating enable
 
 # details (moving and resizing)
 for_window [class="Spotify"] move to workspace $wmusic
