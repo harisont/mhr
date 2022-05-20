@@ -24,6 +24,7 @@ order += "battery all"
 # order += "load"
 order += "tztime local"
 # order += "ipv6"
+order += "pomodoro"
 
 cpu_usage {
         format = " cpu  %usage "
@@ -67,4 +68,12 @@ battery all {
 tztime local {
         format = " %d-%m-%Y %H:%M "
         # format = " %d.%m. %H:%M "
+}
+
+pomodoro {
+    format = "{mmss} {bar}"
+    timer_pomodoro = 2700
+    timer_break = 900
+    timer_long_break = 3600
+    num_progress_bars = 3
 }
