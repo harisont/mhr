@@ -101,6 +101,7 @@ alias hotspot="create_ap wlp59s0 enp58s0f1 wifi-154 wawatech"
 alias gf="/home/harisont/.local/bin/gf"
 alias open="xdg-open"
 alias tlmgr='TEXMFDIST/scripts/texlive/tlmgr.pl --usermode'
+alias larka = 'eval "$(ssh-agent)" && ssh-add sbx && ssh fklarka@demo.spraakdata.gu.se'
 
 eval $(thefuck --alias)
 
@@ -112,3 +113,5 @@ if [ -f '/home/harisont/Documents/Repos/dialog-systems-lab/tts_lab/google-cloud-
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/home/harisont/Documents/Repos/dialog-systems-lab/tts_lab/google-cloud-sdk/completion.zsh.inc' ]; then . '/home/harisont/Documents/Repos/dialog-systems-lab/tts_lab/google-cloud-sdk/completion.zsh.inc'; fi
+
+eval "$(_BIBO_COMPLETE=zsh_source bibo)"
