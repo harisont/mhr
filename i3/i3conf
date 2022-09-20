@@ -356,6 +356,7 @@ exec --no-startup-id redshift -l manual -l 57.74:12.02
 bindsym $mod+l exec xrandr -o left
 bindsym $mod+n exec xrandr -o normal
 
-# DUAL MONITORING (experimental)
-bindsym $mod+Shift+h exec --no-startup-id i3-msg move workspace to output HDMI-2
+# DUAL MONITORING
 bindsym $mod+Shift+l exec --no-startup-id i3-msg move workspace to output eDP-1
+bindsym $mod+Shift+h exec --no-startup-id i3-msg move workspace to output HDMI-2
+bindsym $mod+Shift+d exec --no-startup-id i3-msg move workspace to output DP-2-1
