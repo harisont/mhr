@@ -234,14 +234,14 @@ bindsym $mod+Ctrl+m exec terminal -e 'alsamixer'
 # BASIC WORKSPACE SETTINGS
 
 # workspace names
-set $wshell "1  1"
-set $wcode "2  2"
-set $wweb "3  3"
-set $wchat "4  4"
-set $wread "5  5"
-set $wphoto "6  6"
-set $wdash "9  9"
-set $wmusic "10  10"
+set $wshell "1   1"
+set $wcode "2   2"
+set $wweb "3   3"
+set $wchat "4   4"
+set $wread "5   5"
+set $wphoto "6   6"
+set $wdash "9   9"
+set $wmusic "10   10"
 
 # switch to workspace
 bindsym $mod+1 workspace $wshell
