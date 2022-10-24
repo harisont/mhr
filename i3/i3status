@@ -74,6 +74,7 @@ pomodoro {
     format = "{mmss} {bar}"
     timer_pomodoro = 2700
     timer_break = 900
-    timer_long_break = 3600
+    timer_long_break = 1500
     num_progress_bars = 3
+    pomodoros = 2
 }
