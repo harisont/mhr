@@ -297,6 +297,7 @@ assign [title="Spotify"] $wmusic # not working for unknown reasons
 assign [class="vlc"] $wmusic
 assign [class="mpv"] $wmusic
 assign [class="fluent-reader"] $wread
+assign [class="WeekToDo"] $wdash
 
 # app-specific floating settings
 for_window [title="alsamixer"] floating enable border pixel 1
@@ -351,6 +352,7 @@ exec mailspring
 exec systemctl --user enable timidity.service
 exec systemctl --user start timidity.service
 exec --no-startup-id redshift -l manual -l 57.74:12.02
+exec weektodo
 
 # MONITOR ROTATION
 bindsym $mod+l exec xrandr -o left
