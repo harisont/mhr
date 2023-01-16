@@ -101,7 +101,7 @@ alias hotspot="create_ap wlp59s0 enp58s0f1 wifi-154 wawatech"
 alias gf="/home/harisont/.local/bin/gf"
 alias open="xdg-open"
 alias tlmgr='TEXMFDIST/scripts/texlive/tlmgr.pl --usermode'
-alias pling="aplay /home/harisont/Desktop/.mouthsounds/Pling01.wav"
+alias pling="aplay -q /home/harisont/Desktop/.mouthsounds/Pling01.wav"
 
 eval $(thefuck --alias)
 
