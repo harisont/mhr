@@ -363,4 +363,4 @@ bindsym $mod+n exec xrandr -o normal
 # DUAL MONITORING
 bindsym $mod+Shift+l exec --no-startup-id i3-msg move workspace to output eDP-1
 bindsym $mod+Shift+h exec --no-startup-id i3-msg move workspace to output HDMI-2
-bindsym $mod+Shift+o exec --no-startup-id i3-msg move workspace to output DP-2-1
+bindsym $mod+Shift+o exec --no-startup-id i3-msg move workspace to output DP-2-2
