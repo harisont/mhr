@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Name=Logbook      
+Comment=Show Logbook stats in Surf
+Exec=bash -c 'surf /home/harisont/Repos/harisont/log/index.html;$SHELL'
+Icon=utilities-terminal
+Terminal=false 
+Type=Application
+Categories=Application;
