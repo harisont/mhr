@@ -358,10 +358,11 @@ exec weektodo
 exec slack
 
 # MONITOR ROTATION
-bindsym $mod+l exec xrandr -o left
-bindsym $mod+n exec xrandr -o normal
+# bindsym $mod+l exec xrandr -o left
+# bindsym $mod+n exec xrandr -o normal
 
 # DUAL MONITORING
-bindsym $mod+Shift+l exec --no-startup-id i3-msg move workspace to output eDP-1
-bindsym $mod+Shift+h exec --no-startup-id i3-msg move workspace to output HDMI-1
-bindsym $mod+Shift+o exec --no-startup-id i3-msg move workspace to output DP-2-1
+bindsym $mod+Shift+l exec --no-startup-id i3-msg move workspace to output eDP-1 # laptop
+bindsym $mod+Shift+h exec --no-startup-id i3-msg move workspace to output HDMI-1 # main screen at home
+bindsym $mod+Shift+o exec --no-startup-id i3-msg move workspace to output DP-2-1 # main screen at work
+bindsym $mod+Shift+p exec --no-startup-id i3-msg move workspace to output DP-2-3 # other screen at work
