@@ -280,7 +280,7 @@ assign [class="Code"] $wcode
 assign [class="Atom"] $wcode
 assign [class="jetbrains-studio"] $wcode # it's actually Android Studio
 assign [class="firefox"] $wweb
-assign [class="Slack"] 7
+assign [class="Slack"] $wchat
 assign [class="TelegramDesktop"] $wchat
 assign [class="discord"] $wchat
 assign [class="Gnome-pomodoro"] $wdash
@@ -355,7 +355,6 @@ exec systemctl --user start timidity.service
 exec --no-startup-id redshift -l manual -l 57.74:12.02
 exec arandr
 exec weektodo
-exec slack
 
 # MONITOR ROTATION
 # bindsym $mod+l exec xrandr -o left
