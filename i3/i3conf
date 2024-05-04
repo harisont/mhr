@@ -349,7 +349,6 @@ exec --no-startup-id redshift-gtk
 exec telegram-desktop
 exec restart
 exec_always --no-startup-id nitrogen --restore
-exec mailspring
 exec systemctl --user enable timidity.service
 exec systemctl --user start timidity.service
 exec --no-startup-id redshift -l manual -l 57.74:12.02
