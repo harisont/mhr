@@ -102,6 +102,8 @@ alias gf="/home/harisont/.local/bin/gf"
 alias open="xdg-open"
 alias tlmgr='TEXMFDIST/scripts/texlive/tlmgr.pl --usermode'
 alias pling="aplay -q /home/harisont/Desktop/.mouthsounds/Pling01.wav"
+alias magikarp="python /home/harisont/Repos/harisont/magikarp/magikarp.py"
+alias tadah="python /home/harisont/Repos/harisont/me-tadah/tadah.py"
 
 eval $(thefuck --alias)
 
