@@ -286,6 +286,7 @@ assign [class="discord"] $wchat
 assign [class="Gnome-pomodoro"] $wdash
 assign [class="Skype"] $wchat
 assign [class="Mailspring"] $wchat
+assign [class="thunderbird"] $wchat
 assign [class="Microsoft Teams - Preview"] $wchat
 assign [class="okular"] $wread
 assign [class="Gimp"] $wphoto
@@ -350,6 +351,7 @@ exec telegram-desktop
 exec restart
 exec_always --no-startup-id nitrogen --restore
 exec mailspring --password-store="gnome-libsecret"
+exec thunderbird
 exec systemctl --user enable timidity.service
 exec systemctl --user start timidity.service
 exec --no-startup-id redshift -l manual -l 57.74:12.02
