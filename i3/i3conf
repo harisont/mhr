@@ -285,7 +285,6 @@ assign [class="TelegramDesktop"] $wchat
 assign [class="discord"] $wchat
 assign [class="Gnome-pomodoro"] $wdash
 assign [class="Skype"] $wchat
-assign [class="Mailspring"] $wchat
 assign [class="Microsoft Teams - Preview"] $wchat
 assign [class="okular"] $wread
 assign [class="Gimp"] $wphoto
@@ -297,7 +296,6 @@ assign [title="Spotify"] $wmusic # not working for unknown reasons
 assign [class="vlc"] $wmusic
 assign [class="mpv"] $wmusic
 assign [class="fluent-reader"] $wread
-assign [class="WeekToDo"] $wdash
 
 # app-specific floating settings
 for_window [title="alsamixer"] floating enable border pixel 1
@@ -348,7 +346,6 @@ exec --no-startup-id redshift-gtk
 exec Telegram
 exec restart
 exec_always --no-startup-id nitrogen --restore
-exec mailspring
 exec systemctl --user enable timidity.service
 exec systemctl --user start timidity.service
 exec --no-startup-id redshift -l manual -l 57.74:12.02
