@@ -275,8 +275,7 @@ bindsym $mod+Return exec xfce4-terminal
 bindsym $mod+Shift+Return exec pcmanfm
 
 # assign applications to workspaces
-assign [class="code"] $wcode
-assign [class="Code"] $wcode
+assign [class="VSCodium"] $wcode
 assign [class="Atom"] $wcode
 assign [class="jetbrains-studio"] $wcode # it's actually Android Studio
 assign [class="firefox"] $wweb
