@@ -117,3 +117,5 @@ if [ -f '/home/harisont/Documents/Repos/dialog-systems-lab/tts_lab/google-cloud-
 if [ -f '/home/harisont/Documents/Repos/dialog-systems-lab/tts_lab/google-cloud-sdk/completion.zsh.inc' ]; then . '/home/harisont/Documents/Repos/dialog-systems-lab/tts_lab/google-cloud-sdk/completion.zsh.inc'; fi
 
 eval "$(_BIBO_COMPLETE=zsh_source bibo)"
+
+. /usr/share/nvm/init-nvm.sh
